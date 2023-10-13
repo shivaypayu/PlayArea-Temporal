@@ -6,7 +6,6 @@ import io.temporal.client.WorkflowOptions;
 import io.temporal.common.RetryOptions;
 import io.temporal.serviceclient.WorkflowServiceStubs;
 import lombok.extern.slf4j.Slf4j;
-import workflow.Second;
 import workflow.SecondI;
 
 import java.time.Duration;

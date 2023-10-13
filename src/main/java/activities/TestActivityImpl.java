@@ -1,9 +1,5 @@
 package activities;
 
-import io.temporal.workflow.Workflow;
-
-import java.time.Duration;
-
 public class TestActivityImpl implements TestActivity{
 
     @Override

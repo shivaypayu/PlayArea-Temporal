@@ -44,6 +44,7 @@ public class Main {
 
         SecondI workflowById = client.newWorkflowStub(SecondI.class ,workflowExecution.getWorkflowId());
         workflowById.testSignal(9);
+        System.out.println("test");
 
 
         String id = workflowExecution.getWorkflowId();
